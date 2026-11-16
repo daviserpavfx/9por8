@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alma e Natureza · Materiais de marca e parceria</title>
+<meta name="description" content="Manual de marca, guia de parceria para empresas e templates de Instagram da ONG Alma e Natureza. Projeto da agência 9POR8.">
+<meta property="og:title" content="Alma e Natureza · Materiais de marca e parceria">
+<meta property="og:description" content="Restauração ecológica da Serra da Mantiqueira e formação de jovens para uma economia verde.">
+<meta property="og:image" content="/assets/img/capas/capa-guia.jpg">
+<meta name="theme-color" content="#0B362F">
+<link rel="icon" href="/favicon.png">
+<link rel="preload" href="/assets/fonts/figtree-regular.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:'Figtree';src:url('/assets/fonts/figtree-light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:'Figtree';src:url('/assets/fonts/figtree-regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Figtree';src:url('/assets/fonts/figtree-medium.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Figtree';src:url('/assets/fonts/figtree-semibold.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'Figtree';src:url('/assets/fonts/figtree-bold.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Figtree';src:url('/assets/fonts/figtree-extrabold.woff2') format('woff2');font-weight:800;font-display:swap}
+@font-face{font-family:'Aleo';src:url('/assets/fonts/aleo.woff2') format('woff2');font-weight:100 900;font-display:swap}
+
+:root{
+  --mata:#0B362F; --mantiqueira:#055B4E; --broto:#91D46A; --nevoa:#F4F1E8;
+  --grafite:#141A18; --texto-suave:#3F5C54; --linha:#D9D2BF;
+  --raio:24px; --max:1200px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Figtree',system-ui,sans-serif;color:var(--mata);background:var(--nevoa);line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:var(--mantiqueira)}
+.dark .eyebrow{color:var(--broto)}
+h1,h2,h3{margin:0;font-weight:300;letter-spacing:-.02em;line-height:1.05}
+h1 b,h2 b{font-weight:800}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:600;font-size:16px;text-decoration:none;transition:transform .15s ease,background .15s ease;min-height:48px}
+.btn:hover{transform:translateY(-2px)}
+.btn-broto{background:var(--broto);color:var(--mata)}
+.btn-broto:hover{background:#a6e080}
+.btn-ghost{border:2px solid currentColor}
+.btn-verde{background:var(--mantiqueira);color:#fff}
+.btn-verde:hover{background:#06705f}
+.btn svg{width:18px;height:18px}
+
+/* topo */
+header{position:absolute;top:0;left:0;right:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;height:84px;color:#fff}
+.marca{display:flex;align-items:center;gap:12px;text-decoration:none}
+.marca img{width:40px;height:40px}
+.wordmark{font-family:'Aleo',serif;font-weight:700;font-size:21px;display:flex;align-items:center;gap:4px}
+.wordmark i{display:inline-block;width:3px;height:19px;background:var(--broto)}
+.nav ul{list-style:none;display:flex;gap:28px;margin:0;padding:0;font-weight:500}
+.nav ul a{text-decoration:none;opacity:.85}
+.nav ul a:hover{opacity:1}
+
+/* hero */
+.hero{position:relative;overflow:hidden;background:var(--mata);color:#fff;padding:150px 0 120px}
+.hero .bg{position:absolute;inset:0 0 0 auto;width:52%;background:url('/assets/img/foto-cachoeira.jpg') center/cover}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--mata) 0%,rgba(11,54,47,.15) 45%,rgba(11,54,47,0) 100%)}
+.leaf{position:absolute;border-radius:56px}
+.hero{padding-bottom:170px}
+.hero .l1{left:-60px;bottom:-210px;width:280px;height:300px;background:var(--mantiqueira);transform:rotate(-3deg)}
+.hero .l2{left:120px;bottom:-240px;width:170px;height:300px;background:var(--broto);transform:rotate(4deg)}
+.hero .l3{left:250px;bottom:-290px;width:1600px;height:330px;background:var(--mantiqueira);transform:rotate(1.5deg)}
+.hero-in{position:relative;max-width:600px}
+.hero .eyebrow{color:var(--broto)}
+.hero h1{font-size:clamp(44px,6vw,80px);margin:18px 0 22px}
+.hero p{font-size:19px;color:#D6E8E0;max-width:520px;margin:0 0 34px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+/* números */
+.nums{background:var(--mantiqueira);color:#fff;position:relative;z-index:2}
+.nums .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding-top:34px;padding-bottom:34px}
+.nums strong{display:block;font-size:34px;font-weight:800;color:var(--broto);line-height:1.1}
+.nums span{font-size:14px;color:#D6E8E0}
+
+/* seções */
+section.bloco{padding:110px 0}
+.cab{display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:end;margin-bottom:52px}
+.cab h2{font-size:clamp(36px,4.6vw,58px);margin-top:12px}
+.cab p{margin:0;font-size:18px;color:var(--texto-suave)}
+
+/* materiais */
+.mats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.mat{background:#fff;border-radius:var(--raio);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 1px 0 var(--linha)}
+.mat .capa{aspect-ratio:16/10;background:var(--mata);overflow:hidden;position:relative}
+.mat .capa img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.mat:hover .capa img{transform:scale(1.04)}
+.mat .grade-capa{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;height:100%;background:var(--mata)}
+.mat .grade-capa img{aspect-ratio:1/1;height:auto}
+.mat .corpo{padding:26px;display:flex;flex-direction:column;gap:10px;flex:1}
+.mat h3{font-size:24px;font-weight:800;letter-spacing:-.01em}
+.mat p{margin:0;color:var(--texto-suave);font-size:15.5px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.tag{font-size:12px;font-weight:700;letter-spacing:.06em;padding:4px 12px;border-radius:999px;background:var(--nevoa);color:var(--mantiqueira)}
+.mat .acoes{margin-top:auto;padding-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+.mat .acoes .btn{padding:12px 20px;font-size:15px}
+.link-ver{align-self:center;font-weight:600;font-size:15px;text-decoration:underline;text-underline-offset:4px;color:var(--mantiqueira)}
+
+/* templates */
+.dark{background:var(--mata);color:#fff}
+.dark .cab p{color:#B9D3C8}
+.tpls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.tpl{position:relative;border-radius:18px;overflow:hidden;background:#123f37}
+.tpl img{width:100%;aspect-ratio:1/1;object-fit:cover;transition:transform .35s ease}
+.tpl a{position:absolute;inset:auto 12px 12px auto;display:inline-flex;align-items:center;gap:6px;background:var(--broto);color:var(--mata);font-weight:700;font-size:13px;padding:8px 14px;border-radius:999px;text-decoration:none;opacity:0;transform:translateY(6px);transition:all .2s ease}
+.tpl:hover img{transform:scale(1.03)}
+.tpl:hover a,.tpl a:focus{opacity:1;transform:none}
+.tpl figcaption{position:absolute;left:12px;top:12px;font-size:11px;font-weight:800;letter-spacing:.14em;background:rgba(11,54,47,.82);padding:5px 10px;border-radius:999px}
+.tpls-cta{display:flex;justify-content:center;margin-top:44px}
+
+/* sobre */
+.duas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.frente{border-radius:var(--raio);padding:34px;color:#fff;display:flex;flex-direction:column;gap:12px}
+.frente .n{font-size:46px;font-weight:800;color:var(--broto);line-height:1}
+.frente h3{font-size:28px;font-weight:700}
+.frente p{margin:0;color:#D6E8E0}
+.parceria{margin-top:24px;border-radius:var(--raio);background:var(--broto);padding:40px;display:grid;grid-template-columns:3fr 2fr;gap:30px;align-items:center}
+.parceria h3{font-size:clamp(28px,3.4vw,40px);font-weight:300}
+.parceria h3 b{font-weight:800}
+.parceria p{margin:10px 0 0;font-size:17px}
+.parceria .acoes{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.parceria .btn-ghost{color:var(--mata)}
+
+/* rodapé */
+footer{background:var(--grafite);color:#B9C4C0;padding:56px 0 40px;font-size:14px}
+.rod{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;align-items:start}
+.rod h4{margin:0 0 10px;color:#fff;font-size:13px;letter-spacing:.2em;text-transform:uppercase}
+.rod a{text-decoration:none}
+.rod a:hover{color:#fff}
+.ag{display:flex;align-items:center;gap:14px;margin-top:18px}
+.ag img{height:34px;width:auto}
+.fim{margin-top:40px;padding-top:22px;border-top:1px solid #2A3330;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px}
+
+@media (max-width:960px){
+  .nav ul{display:none}
+  .hero{padding:120px 0 150px}
+  .hero .bg{width:100%;opacity:.35}
+  .hero .bg::after{background:linear-gradient(0deg,var(--mata),rgba(11,54,47,.4))}
+  .nums .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cab{grid-template-columns:1fr;gap:16px}
+  .mats{grid-template-columns:1fr}
+  .tpls{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tpl a{opacity:1;transform:none}
+  .duas,.parceria{grid-template-columns:1fr}
+  .parceria .acoes{justify-content:flex-start}
+  .rod{grid-template-columns:1fr}
+  section.bloco{padding:76px 0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="marca" href="#topo" aria-label="Alma e Natureza, início">
+      <img src="/assets/img/simbolo-branco.png" alt="">
+      <span class="wordmark">Alma<i></i>Natureza</span>
+    </a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="#materiais">Materiais</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#sobre">A ONG</a></li>
+        <li><a href="#parceria">Parceria</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="hero">
+    <div class="bg" aria-hidden="true"></div>
+    <div class="leaf l1" aria-hidden="true"></div>
+    <div class="leaf l2" aria-hidden="true"></div>
+    <div class="leaf l3" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-in">
+        <div class="eyebrow">Materiais de marca e parceria</div>
+        <h1>Restaurar hoje,<br><b>transformar o amanhã.</b></h1>
+        <p>Tudo o que a equipe, os parceiros e as empresas precisam para comunicar a Alma e Natureza: manual de marca, guia de parceria e templates prontos para o Instagram.</p>
+        <div class="ctas">
+          <a class="btn btn-broto" href="#materiais">Ver materiais
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+          <a class="btn btn-ghost" href="/arquivos/guia-de-parceria-alma-e-natureza.pdf" target="_blank" rel="noopener">Sou uma empresa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="nums">
+    <div class="wrap">
+      <div><strong>1.500</strong><span>mudas nativas plantadas</span></div>
+      <div><strong>17 acres</strong><span>em restauração em Liberdade (MG)</span></div>
+      <div><strong>18 meses</strong><span>de projeto-piloto com linha de base</span></div>
+      <div><strong>ERM</strong><span>Foundation, parceira institucional</span></div>
+    </div>
+  </div>
+
+  <section class="bloco" id="materiais">
+    <div class="wrap">
+      <div class="cab">
+        <div><div class="eyebrow">Materiais</div><h2>Baixe os <b>arquivos</b></h2></div>
+        <p>Três materiais que mantêm a marca coerente em todos os canais e ajudam a transformar interesse em parceria.</p>
+      </div>
+      <div class="mats">
+        <article class="mat">
+          <div class="capa"><img src="/assets/img/capas/capa-manual.jpg" alt="Capa do Manual de Marca da Alma e Natureza" loading="lazy"></div>
+          <div class="corpo">
+            <div class="meta"><span class="tag">PDF</span><span class="tag">22 páginas</span><span class="tag">10 MB</span></div>
+            <h3>Manual de Marca</h3>
+            <p>Essência, posicionamento, tom de voz, logotipo, cores, tipografia, fotografia, linguagem e regras para as redes sociais.</p>
+            <div class="acoes">
+              <a class="btn btn-verde" href="/arquivos/manual-de-marca-alma-e-natureza.pdf" download>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M5 20h14"/></svg>Baixar PDF</a>
+              <a class="link-ver" href="/arquivos/manual-de-marca-alma-e-natureza.pdf" target="_blank" rel="noopener">Abrir</a>
+            </div>
+          </div>
+        </article>
+        <article class="mat">
+          <div class="capa"><img src="/assets/img/capas/capa-guia.jpg" alt="Capa do Guia de Parceria para Empresas" loading="lazy"></div>
+          <div class="corpo">
+            <div class="meta"><span class="tag">PDF</span><span class="tag">8 páginas</span><span class="tag">0,6 MB</span></div>
+            <h3>Guia de Parceria para Empresas</h3>
+            <p>Por que apoiar, o que a empresa ganha, cotas de parceria, como medimos os resultados e como começar.</p>
+            <div class="acoes">
+              <a class="btn btn-verde" href="/arquivos/guia-de-parceria-alma-e-natureza.pdf" download>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M5 20h14"/></svg>Baixar PDF</a>
+              <a class="link-ver" href="/arquivos/guia-de-parceria-alma-e-natureza.pdf" target="_blank" rel="noopener">Abrir</a>
+            </div>
+          </div>
+        </article>
+        <article class="mat">
+          <div class="capa">
+            <div class="grade-capa" aria-hidden="true">
+              <img src="/assets/img/templates/modelo-05-resultado.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-02-perfil-pessoa.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-08-parceiro.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-04-institucional.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-11-indicadores.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-07-empresas.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-01-capa-carrossel.jpg" alt="" loading="lazy">
+              <img src="/assets/img/templates/modelo-06-green-jobs.jpg" alt="" loading="lazy">
+            </div>
+          </div>
+          <div class="corpo">
+            <div class="meta"><span class="tag">ZIP</span><span class="tag">12 modelos</span><span class="tag">1080 × 1080</span></div>
+            <h3>Templates do Instagram</h3>
+            <p>Doze modelos de publicação na identidade da marca: perfis, resultados, chamadas para empresas, datas e mais.</p>
+            <div class="acoes">
+              <a class="btn btn-verde" href="/arquivos/templates-instagram-alma-e-natureza.zip" download>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M5 20h14"/></svg>Baixar todos</a>
+              <a class="link-ver" href="#templates">Ver modelos</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloco dark" id="templates">
+    <div class="wrap">
+      <div class="cab">
+        <div><div class="eyebrow">Templates</div><h2>Doze modelos,<br><b>uma só identidade.</b></h2></div>
+        <p>Cada modelo segue a mesma anatomia: símbolo no canto, folhas na base, chapéu e título em duas linhas. Baixe um por um ou o pacote completo.</p>
+      </div>
+      <div class="tpls">
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-01-capa-carrossel.jpg" alt="Modelo 01: capa de carrossel Conheça nossa equipe" loading="lazy"><figcaption>01 · CARROSSEL</figcaption><a href="/arquivos/templates/modelo-01-capa-carrossel.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-02-perfil-pessoa.jpg" alt="Modelo 02: perfil do cofundador José Luis Rivera" loading="lazy"><figcaption>02 · PERFIL</figcaption><a href="/arquivos/templates/modelo-02-perfil-pessoa.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-03-perfil-com-dado.jpg" alt="Modelo 03: perfil com dado, cofundador Eugênio M. Neto" loading="lazy"><figcaption>03 · PERFIL COM DADO</figcaption><a href="/arquivos/templates/modelo-03-perfil-com-dado.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-04-institucional.jpg" alt="Modelo 04: institucional Restaurar hoje, transformar amanhã" loading="lazy"><figcaption>04 · INSTITUCIONAL</figcaption><a href="/arquivos/templates/modelo-04-institucional.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-05-resultado.jpg" alt="Modelo 05: resultado, 1.500 mudas nativas" loading="lazy"><figcaption>05 · RESULTADO</figcaption><a href="/arquivos/templates/modelo-05-resultado.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-06-green-jobs.jpg" alt="Modelo 06: Green Jobs Academy" loading="lazy"><figcaption>06 · GREEN JOBS</figcaption><a href="/arquivos/templates/modelo-06-green-jobs.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-07-empresas.jpg" alt="Modelo 07: chamada para empresas" loading="lazy"><figcaption>07 · EMPRESAS</figcaption><a href="/arquivos/templates/modelo-07-empresas.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-08-parceiro.jpg" alt="Modelo 08: agradecimento à ERM Foundation" loading="lazy"><figcaption>08 · PARCEIRO</figcaption><a href="/arquivos/templates/modelo-08-parceiro.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-09-citacao.jpg" alt="Modelo 09: citação" loading="lazy"><figcaption>09 · CITAÇÃO</figcaption><a href="/arquivos/templates/modelo-09-citacao.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-10-data-comemorativa.jpg" alt="Modelo 10: Dia Nacional da Mata Atlântica" loading="lazy"><figcaption>10 · DATA</figcaption><a href="/arquivos/templates/modelo-10-data-comemorativa.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-11-indicadores.jpg" alt="Modelo 11: indicadores comprovados" loading="lazy"><figcaption>11 · INDICADORES</figcaption><a href="/arquivos/templates/modelo-11-indicadores.jpg" download>Baixar</a></figure>
+        <figure class="tpl" style="margin:0"><img src="/assets/img/templates/modelo-12-voluntariado.jpg" alt="Modelo 12: voluntariado" loading="lazy"><figcaption>12 · VOLUNTARIADO</figcaption><a href="/arquivos/templates/modelo-12-voluntariado.jpg" download>Baixar</a></figure>
+      </div>
+      <div class="tpls-cta"><a class="btn btn-broto" href="/arquivos/templates-instagram-alma-e-natureza.zip" download>Baixar os 12 modelos (.zip)</a></div>
+    </div>
+  </section>
+
+  <section class="bloco" id="sobre">
+    <div class="wrap">
+      <div class="cab">
+        <div><div class="eyebrow">A ONG</div><h2>Uma mensagem,<br><b>duas frentes.</b></h2></div>
+        <p>A Alma e Natureza nasceu em 2024, em Liberdade (MG), a partir de uma propriedade degradada de 17 acres. Hoje une a recuperação da Mata Atlântica ao futuro de quem vive na Serra da Mantiqueira.</p>
+      </div>
+      <div class="duas">
+        <div class="frente" style="background:var(--mantiqueira)"><span class="n">01</span><h3>Restauração ecológica</h3><p>Plantio de mudas nativas e recuperação de áreas degradadas, com as propriedades locais e foco em biodiversidade e água.</p></div>
+        <div class="frente" style="background:var(--mata)"><span class="n">02</span><h3>Green Jobs Academy</h3><p>Formação de jovens do território para empregos verdes, com educação e capacitação para a economia que conserva a natureza.</p></div>
+      </div>
+      <div class="parceria" id="parceria">
+        <div>
+          <h3>Sua empresa pode apoiar<br><b>a próxima etapa.</b></h3>
+          <p>Cotas a partir de R$ 10 mil, com objetivo, contrapartida e métrica. Relatórios semestrais e resultados verificáveis.</p>
+        </div>
+        <div class="acoes">
+          <a class="btn btn-verde" href="mailto:info@almaenatureza.org?subject=Parceria%20com%20a%20Alma%20e%20Natureza">Falar com a ONG</a>
+          <a class="btn btn-ghost" href="/arquivos/guia-de-parceria-alma-e-natureza.pdf" target="_blank" rel="noopener">Ler o guia</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="rod">
+      <div>
+        <a class="marca" href="#topo" style="color:#fff"><img src="/assets/img/simbolo-branco.png" alt="" style="width:36px;height:36px"><span class="wordmark">Alma<i></i>Natureza</span></a>
+        <p style="margin:14px 0 0;max-width:420px">Restauração ecológica da Serra da Mantiqueira e formação de jovens do território para uma economia verde.</p>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a href="mailto:info@almaenatureza.org">info@almaenatureza.org</a><br>
+        <a href="https://www.almaenatureza.org/site/" target="_blank" rel="noopener">almaenatureza.org</a><br>
+        <a href="https://www.instagram.com/almaenatureza_/" target="_blank" rel="noopener">@almaenatureza_</a>
+      </div>
+      <div>
+        <h4>Desenvolvido por</h4>
+        <div class="ag"><img src="/assets/img/logo-9por8-branco.png" alt="9POR8"></div>
+        <p style="margin:12px 0 0">Projeto para o Terceiro Setor<br>UNIP · São José dos Campos</p>
+      </div>
+    </div>
+    <div class="fim"><span>© 2026 Alma e Natureza · Liberdade (MG)</span><span>Materiais criados pela agência 9POR8</span></div>
+  </div>
+</footer>
+
+</body>
+</html>
